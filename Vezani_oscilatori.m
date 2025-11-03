@@ -1,4 +1,4 @@
-%% Vezani jednostavni hamonijski oscilatori
+% Vezani jednostavni hamonijski oscilatori
 % Usporedba eksplicitne Eulerove metode i simplektičke Eulerove metode
 
 clear; clc; close all;
@@ -73,6 +73,7 @@ xlabel('Vrijeme'); ylabel('Energija')
 subplot(2,2,4)
 plot(t,E_symp,'LineWidth',1.5)
 xlabel('Vrijeme'); ylabel('Energija')
+
 
 
 
